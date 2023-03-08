@@ -4,7 +4,7 @@ from numpy.core.fromnumeric import sort
 from numpy.lib.shape_base import column_stack
 import pandas as pd
 import numpy as np
-# testing how github works with usernames
+
 df = pd.read_csv("month.csv", delimiter=";", index_col=("alter", "jahr"), header=0)
 # [2016, 1017, 2018, 2019]
 print(df)
